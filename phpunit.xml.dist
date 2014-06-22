@@ -13,6 +13,7 @@
             <directory>./</directory>
             <exclude>
                 <directory>./Original</directory>
+				<directory>./Tests</directory>
             </exclude>
         </whitelist>
     </filter>
