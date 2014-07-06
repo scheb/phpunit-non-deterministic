@@ -16,7 +16,7 @@ class TestableBlogManager extends BlogManager
      * @param integer $max
      * @return integer
      */
-    function getRandomIndex($max)
+    protected function getRandomIndex($max)
     {
         return $this->randomIndex;
     }
